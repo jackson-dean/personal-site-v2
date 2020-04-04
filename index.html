@@ -10,18 +10,7 @@
       font-weight: 100;
       padding: 3rem;
       color: #fff;
-    }
-    .bg {
-      position: absolute;
       background: rgba(61, 75, 75, 1.0);
-      background: -webkit-linear-gradient(top left, rgba(61, 75, 75, 1.0), rgba(103, 61, 63, 1.0));
-      background: -moz-linear-gradient(top left, rgba(61, 75, 75, 1.0), rgba(103, 61, 63, 1.0));
-      background: linear-gradient(to bottom right, rgba(61, 75, 75, 1.0), rgba(103, 61, 63, 1.0));
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      z-index: -1;
     }
     a {
       text-decoration: none;
@@ -49,9 +38,6 @@
     main section p {
       max-width: 50%;
       opacity: .75;
-      background-color: rgba(0, 0, 0, .2);
-      padding: 1rem;
-      border-radius: 5px;
     }
     header, main, footer {
       max-width: 75%;
@@ -74,6 +60,21 @@
     h2, h3 {
       color: rgba(255,255,255, .85);
       text-transform: uppercase;
+    }
+
+    @media only screen and (max-width: 700px) {
+      html {
+        font-size: 9px;
+      }
+    }
+
+    @media only screen and (max-width: 1200px) {
+      header,main,footer {
+        max-width: initial;
+      }
+      main section p {
+        max-width: 75%;
+      }
     }
   </style>
 </head>
