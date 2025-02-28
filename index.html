@@ -3,106 +3,56 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Software Engineer based in the San Francisco Bay Area. I have worked with a variety of languages, tools, and ecosystems, but recently I've been focused on JavaScript and Single Page Applications.">
+  <meta name="description" content="Software Engineer by day, amateur musician by night.">
   <title>jacksondean.net</title>
   <style>
     body {
-      font-family: sans-serif;
-      font-weight: 100;
-      padding: 3rem;
-      color: #fff;
-      background: rgba(61, 75, 75, 1.0);
-    }
-    a {
-      text-decoration: none;
-      opacity: .65;
-      color: #fff;
-    }
-    a:focus, a:hover {
-      opacity: 1;
-      outline: none;
-      text-decoration: underline;
-    }
-    nav a {
-      display: inline-block;
-      padding: 1rem;
+      margin: 0;
+      min-height: 100vh;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     main {
-      margin-top: 1rem;
-    }
-    main section {
-      border-top: 2px solid rgb(32, 199, 199);
-    }
-    h2, main section p {
-      margin-top: 2rem;
-    }
-    main section p {
-      max-width: 50%;
-      opacity: .75;
-    }
-    header, main, footer {
-      max-width: 75%;
-    }
-    footer {
-      margin-top: 2rem;
-      border-top: 2px solid peachpuff;
+      text-align: center;
     }
     h1 {
       font-size: 4rem;
       font-weight: 100;
+      font-style: italic;
       margin-bottom: 0;
     }
-    h2 {
-      font-size: 1.5rem;
+    a {
+      padding: 0 0.5rem;
+      text-decoration: none;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     }
-    h3 {
-      font-size: 1rem;
+    a:hover {
+      color: #6b46c1;
     }
-    h2, h3 {
-      color: rgba(255,255,255, .85);
-      text-transform: uppercase;
-    }
-
-    @media only screen and (max-width: 700px) {
-      html {
-        font-size: 12px;
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: black;
+        color: white;
       }
-      h1 {
-        font-size: 3rem;
+      a {
+        color: #c9a0dc;
       }
-    }
-
-    @media only screen and (max-width: 1200px) {
-      header,main,footer {
-        max-width: initial;
-      }
-      main section p {
-        max-width: 75%;
+      a:hover {
+        color: #e6ccff;
       }
     }
   </style>
 </head>
 <body>
-  <div class="bg"></div>
-  <header>
-    <nav>
-      <a href="https://www.linkedin.com/in/jacksonldean">LinkedIn</a>
-      <a href="https://github.com/jackson-dean">Github</a>
-      <a href="https://twitter.com/jckson_dean">Twitter</a>
-    </nav>
-  </header>
   <main>
-    <section>
-      <h1>Jackson Dean</h1>
-      <h2>Software Engineer</h2>
-      <p>I have experience working with both distributed and on-site Agile teams to develop and maintain large-scale web applications and enterprise CMS systems. Based in the San Francisco Bay Area, and I'm currently working at LinkedIn, helping build the next generation of LinkedIn Pages. I have worked with a variety of languages, tools, and ecosystems, but recently I've been focused on JavaScript and Single Page Applications.</p>
-    </section>
+    <h1>How Can I Help?</h1>
+    <nav>
+      <a rel="noopener noreferrer" href="https://www.linkedin.com/in/jacksonldean">linkedin</a>
+      <a rel="noopener noreferrer" href="https://github.com/jackson-dean">github</a>
+      <a rel="noopener noreferrer" href="mailto:jckson.dean@gmail.com">email</a>
+    </nav>
   </main>
-  <footer>
-    <header>
-      <h3>Contact me</h3>
-      <a href="mailto:jckson.dean@gmail.com">jckson.dean@gmail.com</a>
-    </header>
-  </footer>
 </body>
 </html>
